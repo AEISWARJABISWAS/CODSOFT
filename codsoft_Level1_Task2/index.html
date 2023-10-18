@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu-toggle" id="menuToggle">&#9776;</div>
+        <h2>Aeiswarja Biswas</h2>
+        <ul class="nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <div class="section" id="about">
+
+        <div class="bio">
+            <div class="image">
+                <img src="./public2/hi_pic.webp" alt="My Image" style="float: right" />
+            </div>
+            <h1>
+                Hello World! 👋<br />
+                I am <span class="myname">AEISWARJA BISWAS</span>
+            </h1>
+            <p>
+                I hold a Master's in Electronics and Telecommunication Engineering. My
+                strong academic foundation drives my passion for applying creative
+                solutions in web development. Proficient in HTML, CSS, and JavaScript,
+                with hands-on experience in Java and other technologies, I navigate
+                diverse challenges with versatility.
+            </p>
+            <div class="resume" id="resume">
+                <b>Hire Me</b>
+
+                <button onclick="opentab()" id="download">
+                    ↓ Download My Resume
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="skills" id="skills">
+        <div class="skilltitle"><b>My Skills</b></div>
+        <div class="skill-container">
+
+            <div class="box-bar">
+                <h4>HTML</h4>
+                <span>95%</span>
+                <div class="barlen"></div>
+                <div class="percentage-bar html"></div>
+            </div>
+
+            <div class="box-bar">
+                <h4>CSS</h4>
+                <span>90%</span>
+                <div class="barlen"></div>
+                <div class="percentage-bar css"></div>
+            </div>
+
+            <div class="box-bar">
+                <h4>Javascript</h4>
+                <span>40%</span>
+                <div class="barlen"></div>
+                <div class="percentage-bar javascript"></div>
+            </div>
+
+            <div class="box-bar">
+                <h4>Java</h4>
+                <span>80%</span>
+                <div class="barlen"></div>
+                <div class="percentage-bar java"></div>
+            </div>
+
+            <div class="box-bar">
+                <h4>SQL</h4>
+                <span>90%</span>
+                <div class="barlen"></div>
+                <div class="percentage-bar sql"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="course-certificate" id="certificates">
+        <div class="course-name"><b>Course Certificates</b>
+        </div>
+        <div class="space1">
+            <div class="course-name1" onclick="opentab1()"><b>Java(Basic) (HackerRank) Certificate</b>
+            </div>
+            <div class="course-name1" onclick="opentab2()"><b>Java (Sololearn) Certificate</b>
+            </div>
+            <div class="course-name1" onclick="opentab3()"><b>SQL(Basic) (HackerRank) Certificate</b>
+            </div>
+            <div class="course-name1" onclick="opentab4()"><b>SQL (Sololearn) Certificate</b>
+            </div>
+            <div class="course-name1" onclick="opentab5()"><b>HTML (Sololearn) Certificate</b>
+            </div>
+            <div class="course-name1" onclick="opentab6()"><b>Python for Beginners (Sololearn) Certificate</b>
+            </div>
+            <div class="course-name1" onclick="opentab7()"><b>Python(Basic) (HackerRank) Certificate</b>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="projects" id="projects">
+        <div class="project-name"><b>Projects</b>
+        </div>
+        <div class="project1">
+            <div class="space">
+                <li><b>RFID Based Attendance System</b></li>
+            </div>
+            <div class="p1">
+                A RFID reader detects a RFID Tag and shows tag is successfully read or not in a TFT LCD screen and
+                RTC to show and note down the time of tag reading.
+            </div>
+        </div>
+
+
+        <div class="project2">
+            <div class="space">
+                <li><b>Modelling and Performance Analysis of Power Efficient Radio Frequency Energy
+                        Harvesting System (Under department of Science & Technology and Biotechnology, West Bengal
+                        Govt.
+                        of India (Sanction Order no. 1373(Sanc.)/STBT-11012(16)/29/2021-STSEC))
+                    </b></li>
+            </div>
+            <div class="p1">
+                Radio Frequency (RF) Energy Harvesting System (EHS) has been designed, which has low power
+                consumption as well as lesser area requirement, using Tanner EDA simulator. The performance of RFEHS
+                is measured with a number of parameters such as dc output voltage, output power, power consumption,
+                time delay etc.
+            </div>
+        </div>
+    </div>
+
+
+    <div class="contact" id="contact"><b>Contact Details</b>
+        <br>
+        <div class="contactme">
+            <div class="name"> <I>Name: </I> Aeiswarja Biswas
+                <br>
+            </div>
+            <div class="name"> <I>Email ID: </I> aeiswarja02biswas@gmail.com
+                <br>
+            </div>
+            <div class="name">
+                <I>Phone No: </I> 8927878108
+                <br>
+            </div>
+            <div class="name">
+                <I>Address: </I> Purba Bardhaman, West Bengal
+                <br>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+    <footer>
+        Copyright&#169 Aeiswarja Biswas 2023
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
